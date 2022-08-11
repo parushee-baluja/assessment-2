@@ -11,6 +11,7 @@
     <title>hbd</title>
     <script src="app.js"> </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="header">
@@ -24,7 +25,7 @@
             <label for="checkbox_id" class="hamburger">&#9776</label>
             <ul class="navigation"> 
                  <li> <a href="#home"> HOME</a></li> 
-                 <li> <a href="#find"> FIND YOUR FRIEND</a></li> 
+                 <li> <a href="#finds"> FIND YOUR FRIEND</a></li> 
                  <li> <a href="#add">ADD NEW</a></li> 
                  <li><a href="#join">JOIN US</a></li> 
             </ul>
@@ -39,11 +40,50 @@
     <h2>FRIENDS THAT HELP <br> YOU FIND YOUR <br> OTHER FRIENDS.</h2>
     <img src="IMG14.jpg" alt="">
    </div>
-   <div id="find">
+   <h1 style="text-align: center;">FIND YOUR FRIEND</h1>
+   
     
-   </div>
+    <div id="finds"></div>
+
+    <div id="add">
+        <h1>ADD NEW: </h1>
+        <form>
+            <label for="name" style="font-size: 20px;">Name:</label>
+            <input type="text" id="name" name="name" placeholder="enter name">
+            <label for="email" style="font-size: 20px;">Email:</label>
+            <input type="email" id="email" name="email" placeholder="enter email">
+            <label for="address" style="font-size: 20px;">Address:</label>
+            <input type="text" id="address" name="address" placeholder="enter Address">
+            <label for="number" style="font-size: 20px;">Phone:</label>
+            <input type="number" id="number" name="number" placeholder="enter number">
+            <label for="Website" style="font-size: 20px;">Website:</label>
+            <input type="text" id="Website" name="Website" placeholder="enter website">
+            <label for="company" style="font-size: 20px;">Company:</label>
+            <input type="text" id="company" name="company" placeholder="enter company name"><br><br>
+           
+            <button type="submit" id="sub">Submit</button> 
+        </form>
+    </div>
+    <br><br><br>
     
-
-
+    <div id="join">
+        <h2 class="heading">JOIN US<hr></h2>
+        <form class="form">
+            <label for="name">Name</label>
+            <input class="form-input" type="text" name="name" id="name">
+            <label for="email">Email</label>
+            <input class="form-input" type="email" name="email" id="email">
+            
+            <button type="submit" id="sub-btn">Submit</button>
+        </form>
+    </div>
+    <br><br><br>
+    <hr>
+    <div class="row">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+</div>
 </body>
 </html>
