@@ -20,7 +20,7 @@ xhr.onreadystatechange=()=>{
             </div>
             `
         }
-        document.querySelector('#find').innerHTML=output
+        document.querySelector('#finds').innerHTML=output
     }
 }
 xhr.send()
