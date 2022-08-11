@@ -41,7 +41,7 @@ li{
 }
 
 .navigation li:hover{
-    background-color: aqua;
+    background-color: #f5a142;
     border-radius: 5px;
     transition: 0.3s ease;
 }
@@ -105,7 +105,158 @@ input[type=checkbox]{
     align-items: center;
     background-color: #f5a142;
 }
-#find{
+#finds{
   display: flex;
   flex-wrap: wrap;
 }
+
+input{
+  width: 100%;
+  padding: 12px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label{
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+#add button[type=submit] {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+#add button[type=submit]:hover {
+  background-color: grey;
+}
+
+#add{
+  background-color: #e6e6ff;
+  border-radius: 5px;
+  padding: 20px;
+}
+#join{
+  display: block;
+  border: 8px solid white;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 0 0 10px 10px;
+  max-width: 330px;
+  background-color:  #f5a142;
+}
+
+.heading h2{
+  display: inline-block;
+  padding: 0 10px 0 0px;
+  margin: 5px 0;
+  color: #FBFBFB;
+}
+
+.form{
+  padding: 10px 10px 0 0;
+}
+
+#join hr{
+  width: 100%;
+  display: block;
+  margin: 5px 0;
+  height: 5px;
+  border: 0;
+  background-color: #ffffff;
+}
+
+#join input,textarea {
+  width: 100%;
+  border-radius: 3px;
+  resize: none;
+  padding: 0 5px;
+  box-sizing: border-box;
+  font-family: 'Open Sans' sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+
+#join input[type="text"],
+input[type="email"] {
+  padding: 0 1px;
+  height: 40px;
+  width: 100%;
+}
+
+
+#join input:focus,
+textarea:focus {
+  outline: none;
+}
+
+#join .form-input {
+  margin: 5px 0 10px 0;
+}
+#join .form-textarea {
+  margin: 5px 0;
+  width: 100%;
+  height: 100px;
+}
+#join button[type="submit"] {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  border: 0;
+  color: #fff;
+  /* border: 5px solid #1aa3ff;
+  border-radius: 8px; */
+  margin: 10px 0 0 0;
+  font-family: 'Open Sans' sans-serif;
+  font-size: 22px;
+}
+
+#join button[type=submit]:hover {
+  background-color: black;
+}
+.row{
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:black;
+  font-size:0.8em;
+}
+.row a{
+  text-decoration:none;
+  color:black;
+  transition:0.5s;
+  }
+.row a:hover{
+    display: inline-block;
+    background-color: #e6e6ff;
+    transition: 0.3s ease;
+  }
+  
+ 
+  
+ 
+  
+   .row a i{
+  font-size:2em;
+  /* margin:0% 1%; */
+  padding:10px;
+  
+  }
+  
+  @media (max-width:720px){
+  
+  
+   .row a i{
+  margin:0% 3%;
+  text-align: center;
+  }
+  }
